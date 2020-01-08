@@ -9,3 +9,9 @@ entrypage_pv	number	进入页次数
 exitpage_pv	number	退出页次数
 page_share_pv	number	转发次数
 page_share_uv	number	转发人数
+
+
+定时发送邮件:
+注意:要下载pywin32库
+其中autho = '123456a'  # 授权码
+    smtpServer = 'smtp.163.com'  # smtp服务器 可以从邮箱设置中获得
